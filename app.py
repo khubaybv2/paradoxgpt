@@ -5,6 +5,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from langdetect import detect
 from sentence_transformers import SentenceTransformer
+from huggingface_hub import cached_download
 import numpy as np
 
 app = Flask(__name__)
