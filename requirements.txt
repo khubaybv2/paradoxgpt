@@ -4,5 +4,7 @@ gunicorn==21.2.0
 flask-cors==4.0.0
 langdetect==1.0.9
 sentence-transformers==2.2.2
+huggingface_hub==0.4.0  # Specific version with cached_download
+torch==1.10.0  # Compatible version
 numpy==1.26.4
 torch==2.2.1
